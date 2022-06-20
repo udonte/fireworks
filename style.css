@@ -3,10 +3,10 @@
   padding: 0;
   box-sizing: border-box;
 }
-body {
+main {
   flex-direction: column;
   margin: 0;
-  height: 100%;
+  height: auto;
   padding: 0;
   display: flex;
   justify-content: center;
@@ -48,6 +48,26 @@ p {
   background: white;
 }
 aside {
+  background: rgb(28, 0, 55);
+  background: -moz-linear-gradient(
+    90deg,
+    rgba(28, 0, 55, 1) 0%,
+    rgba(105, 40, 91, 1) 55%,
+    rgba(28, 0, 55, 1) 100%
+  );
+  background: -webkit-linear-gradient(
+    90deg,
+    rgba(28, 0, 55, 1) 0%,
+    rgba(105, 40, 91, 1) 55%,
+    rgba(28, 0, 55, 1) 100%
+  );
+  background: linear-gradient(
+    90deg,
+    rgba(28, 0, 55, 1) 0%,
+    rgba(105, 40, 91, 1) 55%,
+    rgba(28, 0, 55, 1) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#1c0037",endColorstr="#1c0037",GradientType=1);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -217,4 +237,9 @@ aside {
 }
 #firework12 .explosion::before {
   animation: explosion 2s 0.8s ease-in-out infinite;
+}
+@media screen and (min-width: 414px) {
+  main {
+    height: 100vh;
+    gap: 70px;
 }
