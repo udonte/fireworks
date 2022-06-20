@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 main {
   margin: 0;
   padding: 0;
@@ -5,7 +10,13 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #69285b;
+  background: rgb(28, 0, 55);
+  background: linear-gradient(
+    90deg,
+    rgba(28, 0, 55, 1) 0%,
+    rgba(105, 40, 91, 1) 55%,
+    rgba(28, 0, 55, 1) 100%
+  );
 }
 aside img {
   width: 300px;
@@ -16,7 +27,13 @@ aside img {
   background: white;
 }
 aside {
-  background-color: #69285b;
+  background: rgb(28, 0, 55);
+  background: linear-gradient(
+    90deg,
+    rgba(28, 0, 55, 1) 0%,
+    rgba(105, 40, 91, 1) 55%,
+    rgba(28, 0, 55, 1) 100%
+  );
   display: flex;
   justify-content: center;
   align-items: center;
