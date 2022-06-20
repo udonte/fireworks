@@ -6,7 +6,7 @@
 main {
   flex-direction: column;
   margin: 0;
-  height: auto;
+  height: 100vh;
   padding: 0;
   display: flex;
   justify-content: center;
@@ -237,9 +237,4 @@ aside {
 }
 #firework12 .explosion::before {
   animation: explosion 2s 0.8s ease-in-out infinite;
-}
-@media screen and (min-width: 414px) {
-  main {
-    height: 100vh;
-    gap: 70px;
 }
